@@ -25,13 +25,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   if exists('g:vscode')
     " Easy motion for VSCode
-    " Plug 'asvetliakov/vim-easymotion'
-    Plug 'ChristianChiarulli/vscode-easymotion'
     Plug 'machakann/vim-highlightedyank'
   else
 
-    " Easymotion
-    Plug 'easymotion/vim-easymotion'
     " Surround
     Plug 'tpope/vim-surround'
     " Have the file system follow you around
@@ -113,6 +109,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'szw/vim-maximizer'
     " Neovim in Browser
     Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+    " Multi line edit https://github.com/mg979/vim-visual-multi
+    Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+
     " Rainbow brackets
     " Plug 'luochen1990/rainbow'
     " Async Linting Engine

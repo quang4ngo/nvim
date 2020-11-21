@@ -35,13 +35,14 @@
     "yaml",
     "json",
     "python",
-    "java"
+    "java",
+    "php"
   ],
   "coc.preferences.hoverTarget": "float",
 
   // python config
-  "python.linting.enabled": false,
-  "python.linting.pylintEnabled": false,
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
   "python.formatting.provider": "black",
   // "python.formatting.blackPath": "~/.local/bin/black",
   // "python.linting.pylintPath": "~/.miniconda/envs/neovim/bin/pylint",
