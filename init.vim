@@ -71,5 +71,5 @@ inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
 
 " Jumping to next or previous buffer
-map <c-j> :bnext<CR>
-map <c-k> :bprev<CR>
+"map <c-9> :bnext<CR>
+"map <c-0> :bprev<CR>
