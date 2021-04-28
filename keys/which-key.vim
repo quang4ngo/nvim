@@ -21,6 +21,7 @@ let g:which_key_sep = '→'
 "nnoremap <leader>? CocSearch <C-R>=expand("<cword>")<CR><CR>
 "let g:which_key_map['?'] = 'search word'
 
+" Search word under cursor
 nnoremap <leader>w :Ag <C-R><C-W><CR>
 let g:which_key_map['w'] = 'search word'
 
